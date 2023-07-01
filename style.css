@@ -43,11 +43,13 @@ li a:hover  {
 
 nav a img {
     display: inline-block;
-    position: relative;
-    right: 800px;
+    /* position: relative;
+    left: -800px; */
+
 }
 
-.nav-sosmed {
+nav .nav-sosmed {
     display: flex;
     gap: 20px;
+    justify-self: start;
 }
