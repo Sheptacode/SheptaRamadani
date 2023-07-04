@@ -7,7 +7,7 @@
 }
 
 body    {
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 /* nav style */
@@ -42,7 +42,7 @@ li a:hover  {
 }
 
 .nav-sosmed {
-    margin-right: 750px;
+    margin-right: 650px;
 }
 
 nav a img {
@@ -103,4 +103,21 @@ nav a img {
 .hero-text span {
     color: #ff0000;
 }
+
+
+/* about style */
+.about  {
+    background-color: #ff0000;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.about .paragraf {
+    background-color: #88ff1f;
+    width: 350px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
 
