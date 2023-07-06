@@ -60,7 +60,7 @@ body {
 
 /* nav style */
 nav {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(145, 255, 0);
     position: sticky;
     top: 0;
     display: flex;
@@ -79,14 +79,14 @@ nav ul {
 }
 
 li a {
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     text-decoration: none;
 }
 
 li a:hover  {
-    border-bottom: 2px #88ff1f solid;
-    color: #88ff1f;
+    border-bottom: 2px #ff1f1f solid;
+    color: #ff1f1f;
     transition: 0.2s;
 }
 
@@ -155,18 +155,47 @@ nav a img {
 
 
 /* about style */
-.about  {
+.about {
     background-color: #ff0000;
-    margin-top: 85px;
+    margin-top: 100px;
     text-align: center;
 }
 
-.about .paragraf {
-    background-color: #88ff1f;
-    width: 350px;
-    text-align: justify;
+.about h1 {
+    font-size: 40px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.about p {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.about p b {
+    color: #88ff1f;
+}
+
+.about img {
     margin-top: 30px;
 }
 
+/* project style */
+.project {
+    background-color: #d3dacd;
+    text-align: center;
+}
 
+.project h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
 
+.project picture img {
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
